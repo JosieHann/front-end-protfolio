@@ -1,6 +1,48 @@
-h1 {
-    font-family: 'Poppins', sans-serif;
+:root {
+--heading-font-family:'Playfair Display', serif;
+--heading-font-color:black;
+--default-background-color: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+--default-font-family:'Poppins', sans-serif;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+    font-weight:  bold;
+    color: var(--heading-font-color);
+}
+    h1{
+        font-size: 96px;
+    }
 p {
-    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-family: var(--default-font-family);
+    color: var(--heading-font-color);
+}
+.hero {
+    background: var(--default-background-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+.hero p {
+    
+    font-size: 36px;
+font-weight: bold;
+margin: 0;
+}
+.hero h2 {
+   font-family: var(--default-font-family);
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 2;
+   opacity: 0.8;
+}
+.btn-branding {
+    background:linear-gradient(to right, #525151 0%, black 100%);
+    border-radius: 4px;
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.btn-branding:hover {
+    color: black;
 }
