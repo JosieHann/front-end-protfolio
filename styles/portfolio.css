@@ -119,4 +119,31 @@ body {
    .contect p {
 font-size: 14px;
    }
-   
+   .logo {
+    max-width: 120px;
+   }
+   img {
+    border:black 5px solid;
+   }
+   .navbar{
+    background:radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  }
+  
+  .navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .navbar li{
+    margin: 0 10px;
+  }
+  
+  .navbar li a  {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; }
