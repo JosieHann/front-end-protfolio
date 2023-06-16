@@ -28,7 +28,7 @@
     .hero {
         background: var(--default-background-color);
         text-align: center;
-        padding: 120px 60px;
+        padding:60px 20px;
     }
     .hero p {
         
@@ -103,15 +103,15 @@
             padding: 0;
             text-align: center;
         }
-        .hero {
-            padding: 80px 20px;
-        }
+       
         .content {
             text-align: center;
             padding: 0;
         }
        }
        .josie {
+        
+        border:3px black double;
         border-radius: 10px;
        }
        .content h1 {
@@ -123,7 +123,7 @@
         font-family: var(--default-font-family);
        }
        .content-container {
-        padding: 120px 60px;
+        padding: 60px 20px;
         text-align: center;
        }
        .content {
@@ -140,6 +140,7 @@
        }
        
        img {
+        margin-top: 50px;
         border: rgb(22, 21, 21) 5px double;
        }
        .navbar{
