@@ -113,6 +113,7 @@
         
         border:3px black double;
         border-radius: 10px;
+        text-align: center;
        }
        .content h1 {
         font-size: 64px;
