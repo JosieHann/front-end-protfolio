@@ -9,6 +9,7 @@
         font-family: var(--heading-font-family);
         font-weight:  bold;
         color: var(--heading-font-color);
+
     }
         h1{
             font-size: 96px;
@@ -28,8 +29,9 @@
           margin-bottom: 10px;
         }
         .mb-4 {
-          text-shadow: 5px 5px rgb(3, 3, 3);
-        }
+          text-shadow:  5px 5px rgb(3, 3, 3);
+        } 
+        
         .email-link {
           text-shadow: 1px 1px black;
         
