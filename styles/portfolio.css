@@ -1,7 +1,7 @@
 :root {
     --heading-font-family:'Playfair Display', serif;
     --heading-font-color:rgb(252, 248, 248,0.9);
-    --default-background-color:linear-gradient(175deg, rgb(26, 24, 24) 0%, rgb(97, 95, 98) 97%);
+    --default-background-color:black;
     --default-font-family:'Poppins', sans-serif;
     --default-btn-color: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     }
@@ -19,9 +19,11 @@
 
         }
         h2 {
+          
+          color:rgb(148,133,176);
             font-size: 64px;
             letter-spacing: 2px;
-            text-shadow: 5px 5px rgb(3, 3, 3);
+            text-shadow: 1px 3px 3px rgb(247, 244, 244);
         }
         h3 {
           text-shadow: 1px 5px rgb(3, 3, 3);
@@ -30,56 +32,62 @@
         }
         .mb-4 {
           text-shadow:  5px 5px rgb(3, 3, 3);
+          color:rgb(148,133,176);
+          margin-left: 12px;
         } 
         
-        .email-link {
-          text-shadow: 1px 1px black;
+        a .email-link {
+          color:rgb(148,133,176);
         
         }
-          
+       .email-link:hover {
+        color:rgb(148,133,176); 
+       }
     p {
         font-weight: normal;
         font-family: var(--default-font-family);
-        color: var(--heading-font-color);
-        font-size: 16px;
+        color:rgb(148,133,176);
+        font-size: 25px;
         line-height: 30px;
         letter-spacing: 2px;
         text-shadow: 1px 1px rgb(3, 3, 3);
-        opacity: 0.8;
+        
+        margin-bottom:0;
+        text-decoration: underline;
        
     }
     .hero {
-        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../images/front.jpg');
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url('../images/front.jpg');
         background-size:  cover;
 background-repeat: no-repeat;
         text-align: center;
         padding:100px 20px;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
     }
-    .hero p {
-        
+    .hero h3 {
+      
     font-size: 50px;
     font-weight: bold;
     margin: 0;
     text-shadow: 5px 3px rgb(0, 0, 0);
-    color: white;
-    opacity: 0.8;
+    color:rgb(148,133,176);
     letter-spacing: 2px;
+    
     }
     .hero h2 {
        font-family: var(--default-font-family);
        font-weight: normal;
        font-size: 24px;
        line-height: 1.5;
-       opacity: 0.8;
        text-shadow: 5px 3px rgb(0, 0, 0);
-       color: white;
        letter-spacing: 2px;
+       color:rgb(148,133,176);
     }
     .hero h1 {
       text-shadow: 5px 3px rgb(0, 0, 0);
-      color: white;
+      color:rgb(148,133,176);
       letter-spacing: 2px;
+     
     }
     
     body {
@@ -135,12 +143,43 @@ background-repeat: no-repeat;
     transition: 500ms transform ease-in-out;
     box-shadow:3px 3px 31px 15px rgba(0, 0, 0, 0.3);
   opacity: 0.8; }
+  a {
+    color:white;
+    
+  }
     a:hover {
-      transition: 800ms transform ease-in-out;
-      color: black;
-      opacity: 0.7;
-    }
+      transition: 800mms transform ease-in-out;
+      color: rgba(186, 138, 231);
   
+    }
+    footer p {
+      color: white;
+      
+    }
+    footer a {
+      color:rgba(186, 138, 231);
+
+    }
+    .social-links{
+      color:rgba(186, 138, 231); 
+    }
+    p.text-center{
+    font-size: 16px;
+    }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:40px;
+  padding: 40px;
+  row-gap: 5px;
+}
+.inquiry {
+  opacity: 0.5;
+  margin-left: 35px;
+}
+.title {
+  color:rgb(153, 141, 175);
+}
 
        @media (max-width:900px) {
         h1 {
@@ -198,7 +237,7 @@ background-repeat: no-repeat;
        img {
         margin-top: 50px;
         border: rgb(22, 21, 21) 5px double;
-        box-shadow: 1px 3px 7px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 1px 3px 7px 12px rgba(63, 62, 62, 0.1);
         
         
        }
@@ -228,7 +267,12 @@ background-repeat: no-repeat;
       
       footer {
         margin: 40px 0;
+        border: 1px rgb(148,133,176) double;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 0;
       }
+
       
       footer .contact-box {
         background: var(--secondary-color);
@@ -242,13 +286,7 @@ background-repeat: no-repeat;
       
       footer .email-link {
         text-decoration: none;
-        color: black;
-        font-size: 24px;
-      }
-      
-      footer .email-link:hover {
-        color: var(--branding-color);
-        transition: all 100ms ease-in-out;
+        font-size: 20px;
       }
       
       footer .social-links a {
