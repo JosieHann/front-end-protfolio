@@ -58,14 +58,11 @@
         line-height: 30px;
         letter-spacing: 2px;
         text-shadow: 1px 1px rgb(3, 3, 3);
-        
         margin-bottom:0;
-       
-       
     }
     .hero {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0%, rgba(0,0,0) 100%), radial-gradient(at top center,  rgb(137, 85, 148) 0%, rgba(0,0,0,0.40) 120%) rgb(137, 94, 146);
-        text-align: center;
+    text-align: center;
         padding:100px 20px;
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
     }
@@ -104,7 +101,7 @@
       letter-spacing: 2px;
      
     }
-    
+  
     body {
         background: var(--default-background-color)
     }
@@ -240,7 +237,9 @@ p.inquiry {
        .content-container {
         padding: 30px 20px;
         text-align: center;
+        padding-bottom: 0;
        }
+       
        .content {
         margin: 30px;
        }
