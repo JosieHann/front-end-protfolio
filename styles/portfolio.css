@@ -265,7 +265,10 @@ p.inquiry {
        .navbar{
         background:radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(17, 17, 17) 90.2%);
       }
-      
+      .navbar .logo {
+        margin-top: 0;
+        border: none;
+      }
       .navbar ul{
         list-style: none;
         margin: 0;
@@ -290,7 +293,6 @@ p.inquiry {
       
       footer {
         margin: 40px 0;
-        
         padding: 20px;
         margin-bottom: 0;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.60) 0%, rgb(137, 85, 148) 100%), radial-gradient(at top center, rgb(0, 0, 0) 0%, rgba(0,0,0,0.80) 120%) #000000;
