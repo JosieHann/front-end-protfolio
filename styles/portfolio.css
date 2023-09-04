@@ -196,7 +196,7 @@ p.inquiry {
   color:rgb(153, 141, 175);
 }
 
-       @media (max-width:900px) {
+       @media (max-width:800px) {
         h1 {
             font-size: 44px;
             /* line-height: 56; */
@@ -212,6 +212,9 @@ p.inquiry {
         .content {
             text-align: center;
             padding: 0;
+        }
+        .grid {
+          width: 100%;
         }
        }
        .josie {
@@ -265,10 +268,7 @@ p.inquiry {
        .navbar{
         background:radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(17, 17, 17) 90.2%);
       }
-      .navbar .logo {
-        margin-top: 0;
-        border: none;
-      }
+  
       .navbar ul{
         list-style: none;
         margin: 0;
