@@ -196,7 +196,7 @@ p.inquiry {
   color:rgb(153, 141, 175);
 }
 
-       @media (max-width:800px) {
+       @media (max-width:700px) {
         h1 {
             font-size: 44px;
             /* line-height: 56; */
@@ -219,7 +219,11 @@ p.inquiry {
         li.title {
           white-space: nowrap;
         }
+        nav.navbar {
+          width: 100%;
+        }
        }
+      
       
        .josie {
         
