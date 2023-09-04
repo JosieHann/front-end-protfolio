@@ -192,9 +192,6 @@ p.inquiry {
   margin-left: 35px;
   color: #000000;
 }
-.title {
-  color:rgb(153, 141, 175);
-}
 
        @media (max-width:700px) {
         h1 {
@@ -216,9 +213,7 @@ p.inquiry {
         .grid {
           grid-template-columns: 1fr; 
         }
-        li.title {
-          white-space: nowrap;
-        }
+       
         nav.navbar {
           width: 100%;
         }
